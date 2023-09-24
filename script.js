@@ -2,6 +2,6 @@
 const btn=document.getElementById("enterBtn");
 const para =document.getElementById("status");
 btn.addEventListener("click" ,()=>{
-	 para.innerText="Entered Metaverse";
+	 para.innerHTML="<h1>Entered Metaverse</h1>";
 });
 
